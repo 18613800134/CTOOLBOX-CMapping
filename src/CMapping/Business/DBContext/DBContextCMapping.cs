@@ -7,9 +7,9 @@ namespace CMapping.Business.DBContext
 
     public class DBContextCMapping : BaseDBContext<DBContextCMapping>
     {
-        public IDbSet<CMappingOrgRole> CMappingOrgRole { get; set; }
         public IDbSet<CMappingRoleUser> CMappingRoleUser { get; set; }
         public IDbSet<CMappingOrgUser> CMappingOrgUser { get; set; }
+
 
     }
 
