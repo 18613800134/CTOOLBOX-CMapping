@@ -94,8 +94,7 @@ namespace UnitTestForCMapping
                        .leftjoin(typeof(COrganization.Model.Entity.COrgDepartment), typeof(CDepartmentMixin), "department", "department.BranchId=branch.Id")
                        .leftjoin(typeof(CMapping.Model.Entity.CMappingRoleUser), typeof(CMappingRoleUserMixin), "rolemap", "rolemap.UserId=[user].Id")
                        .leftjoin(typeof(CRole.Model.Entity.CRoleRole), typeof(CRoleMixin), "role", "role.Id=rolemap.RoleId")
-                       .leftjoin(typeof(CMapping.Model.Entity.CMappingOrgRole), typeof(CMappingOrgRoleMixin), "ormap", "ormap.OrganizationId = org.Id and ormap.RoleId=role.Id")
-                       .where("where ormap.OrganizationId = 1");
+                       .where("where org.Id = 1 and role.OrganizationId=org.Id");
                        
                 //注意：where部分可以直接使用上面的别名（Alias）访问字段
 

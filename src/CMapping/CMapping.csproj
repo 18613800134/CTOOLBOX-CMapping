@@ -61,26 +61,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business\Aggregate\Aggregate.cs" />
-    <Compile Include="Business\Aggregate\CMappingOrgRole.cs" />
     <Compile Include="Business\Aggregate\CMappingOrgUser.cs" />
     <Compile Include="Business\Aggregate\CMappingRoleUser.cs" />
     <Compile Include="Business\DBContext\DBContextCMapping.cs" />
-    <Compile Include="Business\Interface\CMappingOrgRole.cs" />
     <Compile Include="Business\Interface\CMappingOrgUser.cs" />
     <Compile Include="Business\Interface\CMappingRoleUser.cs" />
-    <Compile Include="Business\Rule\CMappingOrgRole.cs" />
     <Compile Include="Business\Rule\CMappingOrgUser.cs" />
     <Compile Include="Business\Rule\CMappingRoleUser.cs" />
-    <Compile Include="Model\Entity\CMappingOrgRole.cs" />
     <Compile Include="Model\Entity\CMappingOrgUser.cs" />
     <Compile Include="Model\Entity\CMappingRoleUser.cs" />
-    <Compile Include="Model\Factory\CMappingOrgRole.cs" />
     <Compile Include="Model\Factory\CMappingOrgUser.cs" />
     <Compile Include="Model\Factory\CMappingRoleUser.cs" />
-    <Compile Include="Model\Filter\CMappingOrgRole.cs" />
     <Compile Include="Model\Filter\CMappingOrgUser.cs" />
     <Compile Include="Model\Filter\CMappingRoleUser.cs" />
-    <Compile Include="Model\Mixin\CMappingOrgRole.cs" />
     <Compile Include="Model\Mixin\CMappingOrgUser.cs" />
     <Compile Include="Model\Mixin\CMappingRoleUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
